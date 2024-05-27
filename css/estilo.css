@@ -1,0 +1,82 @@
+body{background-color: #031cff4d;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Carter One", system-ui;
+    
+    }
+    
+    
+    a:link, a:visited,  a:hover, a:active
+    {
+        color: #fbfbfc;
+        text-decoration: none;
+        
+    }
+        
+    
+    
+    .main {
+        margin: auto;
+        font-size: 20px;
+        width: 70%;
+        text-align: justify;
+        background-color: #01084b;
+    }
+    
+    
+    .conteudo{display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: auto;}
+    
+    
+    .box{padding: 15px;
+        color: #ffffff;}
+
+    .box img{
+        width: 500px;
+    }
+    
+    
+    
+    
+    #resp{
+        color: #ffffff;
+    }
+    
+    
+    .footer{
+        
+        text-align: center;
+        color: #ffffff;
+        background-color: #01084b;
+        font-size: 15px;
+        
+        
+    }
+    
+    @media screen and (max-width: 1024px){
+        .main{
+            width: 85%;
+            display: block;
+        }
+        
+    }
+    @media screen and (max-width: 450px){
+        .header img{
+            width: 50px;
+        }
+        
+        
+        .main{
+            width: auto;
+            font-size: 14px;
+        }
+        .conteudo{
+            flex-direction: column;
+        }
+    }

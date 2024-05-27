@@ -1,0 +1,13 @@
+.conteudo{
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.map{
+    
+    width: 600px;
+    height: 500px;
+
+}
+
